@@ -1,0 +1,21 @@
+﻿.wrap {
+    position:relative;
+}
+.box {
+    width:100px; height:100px;
+    background-color:slategray;
+    color:#fff;
+    text-align:center;
+    line-height:100px;
+    position:absolute;
+}
+
+.box:nth-child(2) {
+    left:100px;
+    transform:rotate(180deg);
+    transform:translateY(100px);
+}
+
+.box:nth-child(3) {
+    left:200px;
+}
